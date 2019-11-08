@@ -1,0 +1,6 @@
+administrator.spam-filter.form.label.threshold = Limite
+administrator.spam-filter.form.label.badWords  = Palabras Spam
+administrator.spam-filter.form.button.return = Atras
+
+administrator.spam-filter.list.label.badWords = Palabras Spam
+administrator.spam-filter.list.label.threshold = Limite
