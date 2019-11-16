@@ -39,7 +39,8 @@
 			<acme:menu-suboption code="master.menu.authenticated.company.list" action="/authenticated/company/list"/>
 			<acme:menu-suboption code="master.menu.authenticated.challenges.list" action="/authenticated/challenge/list"/>
 			<acme:menu-suboption code="master.menu.authenticated.offers.list" action="/authenticated/offer/list"/>
-			<acme:menu-suboption code="master.menu.authenticated.requestt.list" action="/authenticated/requestt/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.request.list" action="/authenticated/requestt/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.request.create" action="/authenticated/requestt/create"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.consumer" access="hasRole('Consumer')">
