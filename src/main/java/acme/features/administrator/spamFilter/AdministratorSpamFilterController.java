@@ -17,16 +17,20 @@ import acme.framework.entities.Administrator;
 public class AdministratorSpamFilterController extends AbstractController<Administrator, SpamFilter> {
 
 	@Autowired
-	private AdministratorSpamFilterShowService	showService;
+	private AdministratorSpamFilterShowService		showService;
 
 	@Autowired
-	private AdministratorSpamFilterListService	listService;
+	private AdministratorSpamFilterListService		listService;
+
+	@Autowired
+	private AdministratorSpamFilterUpdateService	updateService;
 
 
 	@PostConstruct
 	private void inicialise() {
 		super.addBasicCommand(BasicCommand.SHOW, this.showService);
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
+		super.addBasicCommand(BasicCommand.UPDATE, this.updateService);
 	}
 
 }

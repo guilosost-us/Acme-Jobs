@@ -13,7 +13,7 @@ import acme.framework.repositories.AbstractRepository;
 public interface AdministratorSpamFilterRepository extends AbstractRepository {
 
 	@Query("select a from SpamFilter a where a.id = ?1")
-	SpamFilter findOneById(int id);
+	SpamFilter findOneSpamFilterById(int id);
 
 	@Query("select a from SpamFilter a")
 	Collection<SpamFilter> findManyAll();

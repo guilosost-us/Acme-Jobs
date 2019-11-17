@@ -40,6 +40,7 @@ master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
 master.menu.administrator.announcement.list = Announcement
 master.menu.administrator.spam.filter.list = Spam Filter
+master.menu.administrator.spam.filter.update = Update Spam Filter
 
 # master.menu.provider ########################################################
 
