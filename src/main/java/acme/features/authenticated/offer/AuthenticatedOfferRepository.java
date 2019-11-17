@@ -16,5 +16,5 @@ public interface AuthenticatedOfferRepository extends AbstractRepository {
 	Offer findOneById(int id);
 
 	@Query("select o from Offer o")
-	Collection<Offer> findManyAll();
+	Collection<Offer> findManyOffers();
 }

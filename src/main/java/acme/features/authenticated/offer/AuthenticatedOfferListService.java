@@ -32,7 +32,7 @@ public class AuthenticatedOfferListService implements AbstractListService<Authen
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "moment", "title", "deadline", "text", "moneyMax", "moneyMin");
+		request.unbind(entity, model, "ticker", "moment", "title", "deadline", "text", "moneyMax", "moneyMin");
 
 	}
 
@@ -42,7 +42,7 @@ public class AuthenticatedOfferListService implements AbstractListService<Authen
 
 		Collection<Offer> result;
 
-		result = this.repository.findManyAll();
+		result = this.repository.findManyOffers();
 
 		return result;
 	}

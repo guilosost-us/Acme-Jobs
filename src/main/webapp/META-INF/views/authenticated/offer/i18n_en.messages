@@ -10,14 +10,22 @@
 
 
 authenticated.offer.form.label.title = Title:
+authenticated.offer.form.label.ticker = Ticker:
 authenticated.offer.form.label.moment = Date:
 authenticated.offer.form.label.deadline = Deadline:
 authenticated.offer.form.label.text = Text:
 authenticated.offer.form.label.moneyMax = Maximum Salary: 
 authenticated.offer.form.label.moneyMin = Minimum Salary:
 authenticated.offer.form.button.return = Return
+authenticated.offer.form.button.create = New
+authenticated.offer.form.label.accept = Confirm offer creation
+authenticated.offer.error.eur = Salary must be in euros
+authenticated.offer.error.must-accept = You must confirm your offer creation
+authenticated.offer.error.money-not-blank = Salary must be not blank
+
 
 authenticated.offer.list.label.moment = Date
+authenticated.offer.list.label.ticker = Ticker
 authenticated.offer.list.label.title = Title
 authenticated.offer.list.label.deadline = Deadline
 authenticated.offer.list.label.text = Text
