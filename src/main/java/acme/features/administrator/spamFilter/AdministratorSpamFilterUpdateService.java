@@ -15,7 +15,7 @@ import acme.framework.services.AbstractUpdateService;
 public class AdministratorSpamFilterUpdateService implements AbstractUpdateService<Administrator, SpamFilter> {
 
 	@Autowired
-	AdministratorSpamFilterRepository repository;
+	private AdministratorSpamFilterRepository repository;
 
 
 	@Override

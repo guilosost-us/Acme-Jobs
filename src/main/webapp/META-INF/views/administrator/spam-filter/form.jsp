@@ -19,7 +19,7 @@
 	<acme:form-textbox code="administrator.spam-filter.form.label.badWords" path="badWords" />
 	<acme:form-double code="administrator.spam-filter.form.label.threshold" path="threshold" />
 	
-	<acme:form-submit test ="${command = 'update'}"
+	<acme:form-submit
 	code = "administrator.spam-filter.form.button.update"
 	action = "/administrator/spam-filter/update"/>
 	

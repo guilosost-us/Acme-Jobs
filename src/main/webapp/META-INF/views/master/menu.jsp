@@ -29,7 +29,6 @@
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
 			<acme:menu-suboption code="master.menu.administrator.announcement.list" action="/administrator/announcement/list"/>
 			<acme:menu-suboption code="master.menu.administrator.spam.filter.list" action="/administrator/spam-filter/list"/>
-			<acme:menu-suboption code="master.menu.administrator.spam.filter.update" action="/administrator/spam-filter/update"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
 		</acme:menu-option>
