@@ -16,3 +16,7 @@ administrator.announcement.form.button.return = Volver
 
 administrator.announcement.list.label.moment = Momento
 administrator.announcement.list.label.title = Titulo
+
+administrator.announcement.form.button.update = Actualizar
+administrator.announcement.form.button.delete = Borrar
+administrator.announcement.form.button.create = Crear

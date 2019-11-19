@@ -14,8 +14,6 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
 import javax.validation.constraints.Pattern;
 
-import org.hibernate.validator.constraints.Length;
-
 import acme.framework.datatypes.Money;
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
@@ -30,10 +28,11 @@ public class Offer extends DomainEntity {
 
 	@Column(unique = true)
 	@NotBlank
-	@Length(min = 11, max = 11)
+	@NotNull
 	@Pattern(regexp = "^O\\p{Alpha}{4}-\\p{Digit}{5}")
 	private String				ticker;
 
+	@NotNull
 	@NotBlank
 	private String				title;
 
@@ -43,8 +42,10 @@ public class Offer extends DomainEntity {
 
 	@Temporal(TemporalType.TIMESTAMP)
 	@Future
+	@NotNull
 	private Date				deadline;
 
+	@NotNull
 	@NotBlank
 	private String				text;
 

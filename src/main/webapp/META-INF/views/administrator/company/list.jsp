@@ -17,8 +17,9 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:list>
-	<acme:list-column code="administrator.announcement.list.label.moment" path="moment" width="20%"/>
-	<acme:list-column code="administrator.announcement.list.label.title" path="title" width="80%"/>
+	<acme:list-column code="administrator.company.list.label.name" path="name" width="33%"/>
+	<acme:list-column code="administrator.company.list.label.sector" path="sector" width="33%"/>
+	<acme:list-column code="administrator.company.list.label.ceo" path="ceo" width="33%"/>
 </acme:list>
 
 

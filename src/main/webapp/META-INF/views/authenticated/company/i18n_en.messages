@@ -19,8 +19,8 @@ authenticated.company.form.label.email = Contact email
 authenticated.company.form.label.incorporated = Incorporated
 authenticated.company.form.label.stars = Stars
 
-anonymous.company.form.button.return = Return
+authenticated.company.form.button.return = Return
 
-anonymous.company.list.label.name = Name
-anonymous.company.list.label.sector = Sector
-anonymous.company.list.label.ceo = CEO
+authenticated.company.list.label.name = Name
+authenticated.company.list.label.sector = Sector
+authenticated.company.list.label.ceo = CEO

@@ -10,7 +10,7 @@
 
 # master.banner.welcome #######################################################
 
-master.banner.background = #FFE97F 
+master.banner.background = #36538B
 
 # master.welcome ##############################################################
 
@@ -39,15 +39,17 @@ master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
 master.menu.administrator.announcement.list = Announcement
+master.menu.administrator.challenge.list = Challenges
+master.menu.administrator.investor-record.list = Investor Records
 master.menu.administrator.spam.filter.list = Spam Filter
 
 # master.menu.provider ########################################################
 
 master.menu.provider = Provider
-master.menu.authenticated.announcement.list = Announcement
-master.menu.authenticated.investor.list = Investor Record
-master.menu.authenticated.company.list = Company Record
-master.menu.authenticated.challenges.list = Challenges
+master.menu.authenticated.announcement.list = Announcements
+master.menu.authenticated.investor-record.list = Investor Records
+master.menu.authenticated.company.list = Company Records
+master.menu.authenticated.challenge.list = Challenges
 master.menu.authenticated.offers.list = Offers
 master.menu.authenticated.request.list = Requests
 master.menu.authenticated.request.create = Create request
@@ -60,6 +62,7 @@ master.menu.authenticated.company.list = Company Record
 master.menu.authenticated.challenges.list = Challenges
 master.menu.authenticated.offers.list = Offers
 master.menu.authenticated.requestt.list = Requests
+master.menu.authenticated.offer.create = New Offer
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Account
