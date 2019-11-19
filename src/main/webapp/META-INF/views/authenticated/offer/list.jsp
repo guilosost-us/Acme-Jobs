@@ -18,8 +18,10 @@
 
 <acme:list>
 
-	<acme:list-column code="authenticated.offer.list.label.title" path="title" width="30%"/>
-	
+	<acme:list-column code="authenticated.offer.list.label.title" path="title" width="20%"/>
+
+	<acme:list-column code="authenticated.offer.list.label.ticker" path="ticker" width="10%"/>
+		
 	<acme:list-column code="authenticated.offer.list.label.moment" path="moment" width="10%"/>
 	
 	<acme:list-column code="authenticated.offer.list.label.deadline" path="deadline" width="10%"/>

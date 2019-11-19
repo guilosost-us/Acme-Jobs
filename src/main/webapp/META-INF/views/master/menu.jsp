@@ -28,6 +28,8 @@
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
 			<acme:menu-suboption code="master.menu.administrator.announcement.list" action="/administrator/announcement/list"/>
+			<acme:menu-suboption code="master.menu.administrator.challenge.list" action="/administrator/challenge/list"/>			
+			<acme:menu-suboption code="master.menu.administrator.investor-record.list" action="/administrator/investor-record/list"/>			
 			<acme:menu-suboption code="master.menu.administrator.spam.filter.list" action="/administrator/spam-filter/list"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
@@ -39,7 +41,8 @@
 			<acme:menu-suboption code="master.menu.authenticated.company.list" action="/authenticated/company/list"/>
 			<acme:menu-suboption code="master.menu.authenticated.challenges.list" action="/authenticated/challenge/list"/>
 			<acme:menu-suboption code="master.menu.authenticated.offers.list" action="/authenticated/offer/list"/>
-			<acme:menu-suboption code="master.menu.authenticated.requestt.list" action="/authenticated/requestt/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.request.list" action="/authenticated/requestt/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.request.create" action="/authenticated/requestt/create"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.consumer" access="hasRole('Consumer')">
@@ -49,6 +52,7 @@
 			<acme:menu-suboption code="master.menu.authenticated.challenges.list" action="/authenticated/challenge/list"/>
 			<acme:menu-suboption code="master.menu.authenticated.offers.list" action="/authenticated/offer/list"/>
 			<acme:menu-suboption code="master.menu.authenticated.requestt.list" action="/authenticated/requestt/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.offer.create" action="/authenticated/offer/create"/>
 		</acme:menu-option>
 	</acme:menu-left>
 
