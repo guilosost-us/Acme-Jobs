@@ -68,15 +68,12 @@ public class AuthenticatedRequestCreateService implements AbstractCreateService<
 		assert errors != null;
 
 		char currency;
-		int length = request.getModel().getString("reward").length();
-		currency = request.getModel().getString("reward").charAt(length - 1);
-		errors.state(request, currency == '€', "reward", "authenticated.request.error.eur");
-
-		//		Boolean eur = false;
-		//		Money moneda = (Money) request.getModel().getAttribute("reward");
-		//		eur = moneda.getCurrency().equals("€") || moneda.getCurrency().equals("EUR");
-		//		errors.state(request, eur, "reward", "authenticated.request.error.eur");
-
+		System.out.println(request.getModel().getString("reward"));
+		if (request.getModel().getString("reward") != "") {
+			int length = request.getModel().getString("reward").length();
+			currency = request.getModel().getString("reward").charAt(length - 1);
+			errors.state(request, currency == '€', "reward", "authenticated.request.error.eur");
+		}
 		boolean isAccepted;
 		isAccepted = request.getModel().getBoolean("accept");
 		errors.state(request, isAccepted, "accept", "authenticated.request.error.must-accept");
