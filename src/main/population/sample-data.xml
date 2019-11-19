@@ -70,18 +70,8 @@
   
   <!--SpamFilter -->
 	<bean id="spamfilter01" class="acme.entities.spamFilters.SpamFilter">
-	<property name="badWords">
-	<list>
-	<value>sex</value>
-	<value>nigeria</value>
-	<value>cialis</value>
-	<value>viagra</value>
-	<value>you've won</value>
-	<value>million dollar</value>
-	<value>has ganado</value>
-	<value>millon de dolares</value>
-	<value>sexo</value>
-	</list>
+	<property name="badWords" 
+	value ="sex,nigeria,cialis,viagra,you've won,million dollar,has ganado,millon de dolares,sexo">
 	</property>
 	<property name="threshold" value="1.00" />	
 	</bean>

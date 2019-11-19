@@ -42,7 +42,7 @@ public class AdministratorSpamFilterShowService implements AbstractShowService<A
 		int id;
 
 		id = request.getModel().getInteger("id");
-		result = this.repository.findOneById(id);
+		result = this.repository.findOneSpamFilterById(id);
 
 		return result;
 	}
