@@ -58,8 +58,8 @@ master.menu.authenticated.investor.list = Investor Record
 master.menu.authenticated.company.list = Company Record
 master.menu.authenticated.challenges.list = Challenges
 master.menu.authenticated.offers.list = Offers
+master.menu.consumer.offer.create = New Offer
 master.menu.authenticated.requestt.list = Requests
-master.menu.authenticated.offer.create = New Offer
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Account

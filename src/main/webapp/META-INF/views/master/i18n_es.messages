@@ -60,7 +60,9 @@ master.menu.authenticated.investor.list = Registro de inversión
 master.menu.authenticated.company.list = Compañias
 master.menu.authenticated.challenges.list = Desafios
 master.menu.authenticated.offers.list = Ofertas
+master.menu.consumer.offer.create = Crear Oferta
 master.menu.authenticated.requestt.list = Peticiones
+
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Cuenta
