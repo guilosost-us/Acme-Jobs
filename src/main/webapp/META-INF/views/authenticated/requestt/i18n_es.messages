@@ -15,6 +15,9 @@ authenticated.request.form.label.description = Descripcion:
 authenticated.request.form.label.reward = Recompensa:
 authenticated.request.form.label.ticker = Codigo:
 authenticated.request.form.button.return = Volver
-
+authenticated.request.form.button.create = Crear
+authenticated.request.error.must-accept = Debe de confirmar la creacion de la peticion
+authenticated.request.error.eur = La unidad monetaria debe de ser en euros
 authenticated.request.list.label.moment = Momento
 authenticated.request.list.label.title = Titulo
+authenticated.request.form.label.accept = Confirmar la creacion de la peticion
