@@ -62,8 +62,11 @@ master.menu.authenticated.investor.list = Registro de inversión
 master.menu.authenticated.company.list = Compañias
 master.menu.authenticated.challenges.list = Desafios
 master.menu.authenticated.offers.list = Ofertas
-master.menu.authenticated.request.list = Peticiones
-master.menu.authenticated.request.create = Crear peticion
+
+master.menu.consumer.offer.create = Crear Oferta
+master.menu.authenticated.requestt.list = Peticiones
+
+master.menu.authenticated.requestt.create = Crear peticion
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Cuenta
@@ -73,7 +76,7 @@ master.menu.user-account.become-provider = Hazte proveedor
 master.menu.user-account.consumer = Datos de consumidor
 master.menu.user-account.become-consumer = Hazte consumidor
 
-﻿# master.footer ###############################################################
+# master.footer ###############################################################
 
 master.footer.title.about = Nosotros
 master.footer.label.company = La empresa
