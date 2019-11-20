@@ -16,6 +16,10 @@ authenticated.request.form.label.description = Description:
 authenticated.request.form.label.reward = Reward:
 authenticated.request.form.label.ticker = Ticker:
 authenticated.request.form.button.return = Return
+authenticated.request.form.button.create = New
+authenticated.request.form.label.accept = Confirm request creation
+authenticated.request.error.eur = Reward must be in euros
+authenticated.request.error.must-accept = You must confirm your request creation
 
 authenticated.request.list.label.moment = Moment
 authenticated.request.list.label.title = Title
